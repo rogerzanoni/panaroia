@@ -1,0 +1,6 @@
+[submodule "3rdparty/imgui-filebrowser"]
+	path = 3rdparty/imgui-filebrowser
+	url = git@github.com:AirGuanZ/imgui-filebrowser.git
+[submodule "3rdparty/log.c"]
+	path = 3rdparty/log.c
+	url = git@github.com:rxi/log.c.git

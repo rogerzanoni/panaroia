@@ -1,0 +1,11 @@
+[requires]
+imgui/1.73@bincrafters/stable
+
+[generators]
+cmake
+
+[imports]
+./misc/bindings, imgui_impl_sdl.h -> ./interfaces/imgui-bindings
+./misc/bindings, imgui_impl_sdl.cpp -> ./interfaces/imgui-bindings
+./misc/bindings, imgui_impl_opengl3.h -> ./interfaces/imgui-bindings
+./misc/bindings, imgui_impl_opengl3.cpp -> ./interfaces/imgui-bindings
